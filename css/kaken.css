@@ -1,0 +1,66 @@
+body{
+	background-image: url(../img/kousya.jpg);
+	background-color: rgba(255,255,255,0.2);
+   	background-blend-mode: lighten;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+.box0 {
+	margin : 30px 300px ;
+	padding : auto auto;
+	border : 0px solid maroon ;
+}
+.box2 {
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	font-weight: bold;
+	color: #6091d3;
+	background: #FFF;
+	border: solid 3px #6091d3;
+	border-radius: 10px;
+}
+.box2 p {
+	margin: 0; 
+	padding: 0;
+}
+.box3{
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	font-weight: bold;
+	color: #6091d3;
+	background: #FFF;
+	border: solid 3px #6091d3;
+	border-radius: 10px;
+}
+.box3 p {
+	margin: 0; 
+	padding: 0;
+}
+.box4{
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	font-weight: bold;
+	color: #6091d3;
+	background: #FFF;
+	border: solid 3px #6091d3;
+	border-radius: 10px;
+}
+.box4 p {
+	margin: 0; 
+	padding: 0;
+}
+
+
+@media screen and (max-width:480px) {
+	.box0{
+		width: 100%;
+		margin: 0px 0 10px 0;
+	}
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+	.box0{
+		width: device-width;
+		margin: 0px 0 10px 0;
+	}
+	}
